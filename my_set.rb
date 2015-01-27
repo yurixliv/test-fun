@@ -1,6 +1,9 @@
 class MySet
 
   def empty?
-    return true
+    return false
+  end
+
+  def add thing
   end
 end
