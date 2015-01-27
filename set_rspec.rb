@@ -1,9 +1,9 @@
 require "rspec"
 
-describe "is initialized" do
+describe MySet do
 
   it "expect to be empty" do
-    expect(true).to be false
+    expect(MySet.new).to be_empty
   end
 
 end
