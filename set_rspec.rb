@@ -11,4 +11,9 @@ describe MySet do
     expect( subject ).to be_empty
   end
 
+  it "that contains everything is not empty" do
+    subject.add "dog"
+    expect( subject ).not_to be_empty
+  end
+
 end
