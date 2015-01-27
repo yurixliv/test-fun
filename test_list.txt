@@ -1,0 +1,21 @@
+(freedom in constraints)
+Set
+
+collection
+unique
+unsorted
+unidexed
+
+-operations:
+add
+remove
+contains?
+empty?
+
+
+List (Array)
+
+collection
+not unique
+sorted
+indexed
