@@ -1,9 +1,10 @@
 class MySet
 
   def empty?
-    return false
+    not @contents
   end
 
   def add thing
+    @contents = thing
   end
 end
