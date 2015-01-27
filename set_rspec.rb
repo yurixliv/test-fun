@@ -5,8 +5,10 @@ require "#{here}/my_set"
 
 describe MySet do
 
+  subject { MySet.new }
+
   it "expect to be empty" do
-    expect(MySet.new).to be_empty
+    expect( subject ).to be_empty
   end
 
 end
