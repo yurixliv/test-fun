@@ -7,4 +7,8 @@ class MySet
   def add thing
     @contents = thing
   end
+
+  def contains? thing
+    (@contents == thing)
+  end
 end

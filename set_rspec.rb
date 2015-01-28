@@ -16,4 +16,8 @@ describe MySet do
     expect( subject ).not_to be_empty
   end
 
+  it "contains something after is being added" do
+    expect( subject.contains? "dog" ).to be false
+  end
+
 end
